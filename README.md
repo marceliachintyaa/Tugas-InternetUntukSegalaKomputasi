@@ -1,12 +1,6 @@
-# Tugas Internet untuk Segala Komputasi - Simulasi Particle Swarm Optimization (PSO)
+# Tugas Internet untuk Segala Komputasi
 
-Repository ini berisi kode program dan hasil simulasi Particle Swarm Optimization (PSO) untuk memenuhi tugas lab report pada mata kuliah Internet untuk Segala Komputasi. Simulasi dilakukan berdasarkan fungsi objektif :
-
-\[
-f(x) = x^2
-\]
-
-Pada fungsi tersebut, titik optimum atau minimum global berada pada \(x = 0\) dan \(f(x) = 0\). Simulasi ini berfokus pada analisis pengaruh nilai inertia weight \(w\) terhadap jumlah iterasi yang dibutuhkan PSO untuk mencapai kondisi target.
+Repository ini berisi kode program dan hasil simulasi Particle Swarm Optimization (PSO) untuk memenuhi tugas lab report pada mata kuliah Internet untuk Segala Komputasi. Simulasi dilakukan berdasarkan fungsi objektif di mana titik optimum atau minimum global berada pada \(x = 0\) dan \(f(x) = 0\). Simulasi ini berfokus pada analisis pengaruh nilai inertia weight \(w\) terhadap jumlah iterasi yang dibutuhkan PSO untuk mencapai kondisi target.
 
 - Nama: Marcelia Chintya
 - NIM: 1101223073
