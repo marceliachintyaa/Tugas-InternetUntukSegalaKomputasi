@@ -18,12 +18,7 @@ Berdasarkan script Python PSO yang dibahas di kelas, tugas ini bertujuan untuk m
 
 > Bagaimana hubungan konstanta \(w\) terhadap jumlah iterasi yang dibutuhkan untuk mencapai status 90% partikel berada pada posisi kurang dari 10% dari posisi optimum.
 
-Karena titik optimum fungsi \(f(x)=x^2\) berada pada \(x=0\), maka batas 10% dari posisi optimum tidak dapat dihitung secara langsung. Oleh karena itu, pada simulasi ini digunakan definisi operasional berupa target zone:
-
-\[
-|x| \leq 1
-\]
-
+Karena titik optimum fungsi \(f(x)=x^2\) berada pada \(x=0\), maka batas 10% dari posisi optimum tidak dapat dihitung secara langsung. Oleh karena itu, pada simulasi ini digunakan definisi operasional berupa target zone.
 Target dianggap tercapai apabila minimal 90% partikel berada di dalam zona tersebut.
 
 ## Parameter Simulasi
@@ -38,7 +33,6 @@ Parameter dasar yang digunakan dalam simulasi adalah sebagai berikut:
 | Cognitive coefficient \(c1\) | 1.5 |
 | Social coefficient \(c2\) | 1.5 |
 | Target rasio partikel | 90% |
-| Target zone | \(|x| \leq 1\) |
 | Jumlah percobaan per nilai \(w\) | 30 |
 
 Nilai inertia weight \(w\) yang diuji:
